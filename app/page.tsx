@@ -7,6 +7,7 @@ import Benefits from "@/components/Benefits";
 import Features from "@/components/Features";
 import GrowthHighlight from "@/components/GrowthHighlight";
 import Testimonials from "@/components/Testimonials";
+import BusinessPartners from "@/components/BusinessPartners";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
@@ -16,10 +17,11 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <HowItWorks />
+        <ProductsShowcase />
         <Features />
         <Testimonials />
-        <ProductsShowcase />
-        <HowItWorks />
+        <BusinessPartners />
         <Benefits />
         <TrustBar />
         <GrowthHighlight />

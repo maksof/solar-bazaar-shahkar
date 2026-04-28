@@ -237,25 +237,6 @@ function DashboardCard() {
         </div>
       </div>
 
-      {/* Floating: New Order */}
-      <div style={{ position: "absolute", top: -16, right: -20, background: "white", borderRadius: 16, boxShadow: "0 8px 32px rgba(0,0,0,0.18)", padding: "12px 16px", display: "flex", alignItems: "center", gap: 10, minWidth: 200, animation: "floatY 4s ease-in-out infinite" }}>
-        <div style={{ width: 34, height: 34, borderRadius: "50%", background: "#DCFCE7", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5 6.5-7" stroke="#16A34A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-        </div>
-        <div>
-          <p style={{ color: "#0A2540", fontWeight: 800, fontSize: 12, lineHeight: 1 }}>New Order!</p>
-          <p style={{ color: "#64748B", fontSize: 11, marginTop: 2 }}>Solar Panels ×30 — ₨ 270K</p>
-        </div>
-      </div>
-
-      {/* Floating: Growth */}
-      <div style={{ position: "absolute", bottom: -16, left: -20, background: "white", borderRadius: 16, boxShadow: "0 8px 32px rgba(0,0,0,0.18)", padding: "12px 16px", display: "flex", alignItems: "center", gap: 10, animation: "floatY 4s ease-in-out infinite 2s" }}>
-        <div style={{ fontSize: 28 }}>📈</div>
-        <div>
-          <p style={{ color: "#FF6A00", fontWeight: 900, fontSize: 18, lineHeight: 1 }}>2X</p>
-          <p style={{ color: "#64748B", fontSize: 11, marginTop: 2 }}>Revenue growth</p>
-        </div>
-      </div>
     </div>
   );
 }

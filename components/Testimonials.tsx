@@ -69,12 +69,7 @@ export default function Testimonials() {
         {/* Header */}
         <div style={{ textAlign: "center", maxWidth: 600, margin: "0 auto 64px" }}>
           <span className="chip" style={{ marginBottom: 16, display: "inline-flex" }}>Testimonials</span>
-          <h2 style={{ fontSize: "clamp(28px,3.5vw,44px)", fontWeight: 900, color: "#0A2540", letterSpacing: "-1px", lineHeight: 1.1, marginBottom: 16 }}>
-            Real Suppliers.
-            <br />
-            <span className="text-gradient-orange">Real Results.</span>
-          </h2>
-          <p style={{ color: "#64748B", fontSize: 17, lineHeight: 1.7 }}>
+<p style={{ color: "#64748B", fontSize: 17, lineHeight: 1.7 }}>
             Hundreds of Pakistani solar distributors are already growing with Solar Shahkar. Here&apos;s what they say.
           </p>
         </div>
